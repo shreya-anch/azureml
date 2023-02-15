@@ -27,7 +27,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'AnchResources'
+    azureSubscription: 'your-azure-subscription'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
